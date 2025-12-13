@@ -68,6 +68,13 @@ Playful, vibrant, and romantic.
 @import url("https://cdn.jsdelivr.net/gh/artur0sky/jellyfin-oled-themes@main/themes/jellyfin-oled-themes-pink.css");
 ```
 
+### 🌊 Sky Theme
+Playful, vibrant, and romantic.
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/artur0sky/jellyfin-oled-themes@main/themes/jellyfin-oled-themes-sky.css");
+```
+
 ## 🛠️ Installation
 
 1. Open your **Jellyfin Dashboard**.
@@ -85,7 +92,7 @@ Playful, vibrant, and romantic.
 - [x] **Violet** Theme
 - [x] **Lime** Theme
 - [x] **Pink** Theme
-- [ ] **Sky** Theme
+- [x] **Sky** Theme
 - [ ] **Rose** Theme
 - [ ] **Amber** Theme
 - [ ] **Emerald** Theme
