@@ -1,21 +1,21 @@
-/* Jellyfin OLED Theme - lime */
+/* Jellyfin OLED Theme - Pink */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-  --themeFooterText: "Jellyfin OLED Theme - Lime";
+  --themeFooterText: "Jellyfin OLED Theme - Pink";
   color-scheme: dark;
-  /* Tailwind lime Palette */
-  --lime-50: oklch(98.6% 0.031 120.757);
-  --lime-100: oklch(96.7% 0.067 122.328);
-  --lime-200: oklch(93.8% 0.127 124.321);
-  --lime-300: oklch(89.7% 0.196 126.665);
-  --lime-400: oklch(84.1% 0.238 128.85);
-  --lime-500: oklch(76.8% 0.233 130.85);
-  --lime-600: oklch(64.8% 0.2 131.684);
-  --lime-700: oklch(53.2% 0.157 131.589);
-  --lime-800: oklch(45.3% 0.124 130.933);
-  --lime-900: oklch(45.3% 0.124 130.933);
-  --lime-950: oklch(27.4% 0.072 132.109);
+  /* Tailwind Pink Palette */
+  --pink-50: oklch(0.971 0.014 343.198);
+  --pink-100: oklch(0.948 0.028 342.258);
+  --pink-200: oklch(0.899 0.061 343.231);
+  --pink-300: oklch(0.823 0.12 346.018);
+  --pink-400: oklch(0.718 0.202 349.761);
+  --pink-500: oklch(0.656 0.241 354.308);
+  --pink-600: oklch(0.592 0.249 0.584);
+  --pink-700: oklch(0.525 0.223 3.958);
+  --pink-800: oklch(0.459 0.187 3.815);
+  --pink-900: oklch(0.408 0.153 2.432);
+  --pink-950: oklch(0.284 0.109 3.907);
   /* Tailwind Red Palette */
   --red-500: #ef4444;
   --red-600: #dc2626;
@@ -34,22 +34,22 @@
   --lighterBorderColor: hsla(0, 0%, 100%, .2);
   --selectorBackgroundColor: rgb(0, 0, 0);
   --selectorBackgroundColorAlpha: rgba(0, 0, 0, .5);
-  --activeColorAlpha: oklch(64.8% 0.2 131.684 / .9);
-  /* lime-600 with alpha */
-  --activeColor: var(--lime-600);
-  --osdSeekBarPlayedColor: var(--lime-500);
+  --activeColorAlpha: oklch(0.592 0.249 0.584 / .9);
+  /* pink-600 with alpha */
+  --activeColor: var(--pink-600);
+  --osdSeekBarPlayedColor: var(--pink-500);
   --osdSeekBarBufferedColorAlpha: rgba(128, 128, 128, .5);
   --osdSeekBarThumbColor: white;
   --tableBodyColor: rgb(0 0 0 / 1);
-  --uiAccentColor: var(--lime-500);
-  --btnMiniPlayColor: var(--lime-600);
-  --btnMiniPlayBorderColor: var(--lime-500);
+  --uiAccentColor: var(--pink-500);
+  --btnMiniPlayColor: var(--pink-600);
+  --btnMiniPlayBorderColor: var(--pink-500);
   --btnDeleteColor: rgb(169, 29, 29);
   --btnDeleteBorderColor: rgb(217, 84, 84);
-  --btnSubmitColor: var(--lime-700);
-  --btnSubmitBorderColor: var(--lime-600);
-  --checkboxCheckedBgColor: var(--lime-600);
-  --highlightOutlineColor: var(--lime-500);
+  --btnSubmitColor: var(--pink-700);
+  --btnSubmitBorderColor: var(--pink-600);
+  --checkboxCheckedBgColor: var(--pink-600);
+  --highlightOutlineColor: var(--pink-500);
   --defaultBorder: var(--borderWidth) solid var(--borderColor);
   --defaultLighterBorder: var(--borderWidth) solid var(--lighterBorderColor);
   --textColor: rgb(209, 213, 219);
@@ -190,7 +190,7 @@ body {
 
 .card:focus .cardBox.visualCardBox,
 .card:focus .cardBox:not(.visualCardBox) .cardScalable {
-  border-color: var(--lime-500) !important;
+  border-color: var(--pink-500) !important;
 }
 
 .mdl-radio__focus-circle,
@@ -304,11 +304,11 @@ body {
 
 .card-hoverable:hover .cardScalable,
 .card-hoverable:hover .visualCardBox {
-  border-color: var(--lime-500) !important;
+  border-color: var(--pink-500) !important;
 }
 
 .card-hoverable:hover .visualCardBox .cardScalable {
-  border-color: var(--lime-500) !important;
+  border-color: var(--pink-500) !important;
 }
 
 .card-hoverable:hover .cardImageContainer {
@@ -346,8 +346,8 @@ body {
 /* Card Glow Effect */
 .card-hoverable:hover .cardScalable,
 .card-hoverable:focus-within .cardScalable {
-  box-shadow: 0 0 20px 2px oklch(76.8% 0.233 130.85 / 0.5) !important;
-  /* lime-500 glow */
+  box-shadow: 0 0 20px 2px oklch(0.656 0.241 354.308 / 0.5) !important;
+  /* pink-500 glow */
   transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
   border-radius: var(--smallRadius);
   z-index: 10;
@@ -1525,7 +1525,7 @@ html,
 
 .card:hover .itemProgressBarForeground,
 .card:focus-within .itemProgressBarForeground {
-  background-color: var(--lime-500) !important;
+  background-color: var(--pink-500) !important;
 }
 
 .backgroundProgress>div,
@@ -1560,7 +1560,7 @@ progress+span {
 }
 
 .mdl-spinner__circle {
-  border-color: var(--lime-500);
+  border-color: var(--pink-500);
   border-style: inset;
   border-width: .25em
 }
@@ -1735,37 +1735,37 @@ progress+span {
 
 .layout-desktop .itemExternalLinks.focuscontainer-x>a[href*="themoviedb.org"]:hover,
 .itemExternalLinks.focuscontainer-x>a[href*="themoviedb.org"]:active {
-  background-color: var(--lime-600) !important;
+  background-color: var(--pink-600) !important;
   color: black !important
 }
 
 .layout-desktop .itemExternalLinks.focuscontainer-x>a[href*="imdb.com"]:hover,
 .itemExternalLinks.focuscontainer-x>a[href*="imdb.com"]:active {
-  background-color: var(--lime-600) !important;
+  background-color: var(--pink-600) !important;
   color: black !important
 }
 
 .layout-desktop .itemExternalLinks.focuscontainer-x>a[href*="thetvdb.com"]:hover,
 .itemExternalLinks.focuscontainer-x>a[href*="thetvdb.com"]:active {
-  background-color: var(--lime-600) !important;
+  background-color: var(--pink-600) !important;
   color: black !important
 }
 
 .layout-desktop .itemExternalLinks.focuscontainer-x>a[href*="trakt.tv"]:hover,
 .itemExternalLinks.focuscontainer-x>a[href*="trakt.tv"]:active {
-  background-color: var(--lime-600) !important;
+  background-color: var(--pink-600) !important;
   color: var(--textColor) !important
 }
 
 .layout-desktop .itemExternalLinks.focuscontainer-x>a[href*="theaudiodb.com"]:hover,
 .itemExternalLinks.focuscontainer-x>a[href*="theaudiodb.com"]:active {
-  background-color: var(--lime-600) !important;
+  background-color: var(--pink-600) !important;
   color: var(--textColor) !important
 }
 
 .layout-desktop .itemExternalLinks.focuscontainer-x>a[href*="musicbrainz.org"]:hover,
 .itemExternalLinks.focuscontainer-x>a[href*="musicbrainz.org"]:active {
-  background-color: var(--lime-600) !important;
+  background-color: var(--pink-600) !important;
   color: var(--textColor) !important
 }
 
@@ -2925,8 +2925,8 @@ div[data-role="controlgroup"] a.ui-btn-active {
 
 @media (hover:hover) and (pointer:fine) {
   .paper-icon-button-light:hover:not(:disabled) {
-    color: var(--lime-500) !important;
-    background-color: oklch(64.8% 0.2 131.684 / 0.2) !important;
+    color: var(--pink-500) !important;
+    background-color: oklch(0.592 0.249 0.584 / 0.2) !important;
   }
 
   .actionSheetMenuItem.emby-button:has(.listItemIcon.material-icons.check[style*="hidden"]):hover {
@@ -3687,7 +3687,7 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense>div:first-child {
 .headerTabs.sectionTabs .emby-tab-button-active {
   margin: .25em .5em;
   color: white;
-  background-color: var(--lime-600);
+  background-color: var(--pink-600);
 }
 
 .layout-mobile .headerTabs.sectionTabs .emby-tab-button:first-child {
@@ -3851,15 +3851,15 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense>div:first-child {
 
 /* Volume/Track bars - lime */
 .mdl-slider-background-lower {
-  background-color: var(--lime-500) !important;
+  background-color: var(--pink-500) !important;
 }
 
 .mdl-slider::-webkit-slider-thumb {
-  background: var(--lime-500) !important;
+  background: var(--pink-500) !important;
 }
 
 .mdl-slider::-moz-range-thumb {
-  background: var(--lime-500) !important;
+  background: var(--pink-500) !important;
 }
 
 /* Remove purple borders from sliders if any */
@@ -3873,16 +3873,16 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense>div:first-child {
 /* Other icons lime on hover/active */
 .paper-icon-button-light:hover:not(.btnLyrics):not(.favorite-button):not(.btnPlay):not(.btnResume):not(.btnMiniPlay):not(.cardOverlayButton),
 .actionSheetMenuItem:hover .material-icons {
-  color: var(--lime-500) !important;
+  color: var(--pink-500) !important;
 }
 
 .navMenuOption-selected {
-  color: var(--lime-500) !important;
+  color: var(--pink-500) !important;
 }
 
 .sectionTitleTextButton:hover,
 .button-flat:hover {
-  color: var(--lime-500) !important;
+  color: var(--pink-500) !important;
 }
 
 
@@ -3920,7 +3920,7 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 .emby-select option:checked,
 .emby-select option:hover,
 .emby-select option:active {
-  background-color: var(--lime-600) !important;
+  background-color: var(--pink-600) !important;
   color: white !important;
 }
 
@@ -3933,7 +3933,7 @@ input:hover:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 .emby-input:hover,
 .emby-textarea:hover,
 .emby-select:hover {
-  border-color: var(--lime-400) !important;
+  border-color: var(--pink-400) !important;
 }
 
 input[type="range"] {
@@ -3946,23 +3946,23 @@ input:focus:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 .emby-input:focus,
 .emby-textarea:focus,
 .emby-select:focus {
-  border-color: var(--lime-500) !important;
-  box-shadow: 0 0 0 1px var(--lime-500) !important;
+  border-color: var(--pink-500) !important;
+  box-shadow: 0 0 0 1px var(--pink-500) !important;
   outline: none !important;
 }
 
 /* Checkbox Styling */
 .emby-checkbox:checked+span+span,
 .checkboxOutline:checked {
-  background-color: var(--lime-600) !important;
-  border-color: var(--lime-500) !important;
+  background-color: var(--pink-600) !important;
+  border-color: var(--pink-500) !important;
 }
 
 .emby-checkbox:hover+span+span,
 .emby-checkbox:focus+span+span,
 .checkboxOutline:hover,
 .checkboxOutline:focus {
-  border-color: var(--lime-500) !important;
+  border-color: var(--pink-500) !important;
   transition: border-color .15s ease-in-out;
 }
 
@@ -3970,7 +3970,7 @@ input:focus:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 .btnResume,
 .btnMiniPlay,
 .button-submit {
-  background-color: var(--lime-600) !important;
+  background-color: var(--pink-600) !important;
   color: white !important;
   /* Ensure text/icon is white */
   transition: all 0.2s ease-in-out;
@@ -3982,15 +3982,15 @@ input:focus:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 .btnPlay:active,
 .btnResume:active,
 .button-submit:active {
-  background-color: var(--lime-500) !important;
-  box-shadow: 0 0 15px var(--lime-500) !important;
+  background-color: var(--pink-500) !important;
+  box-shadow: 0 0 15px var(--pink-500) !important;
   color: white !important;
   /* Force white text/icon */
 }
 
 /* Fix focus rings */
 *:focus-visible {
-  outline-color: var(--lime-500) !important;
+  outline-color: var(--pink-500) !important;
 }
 
 /* Mobile Lyrics Button Positioning */
@@ -4017,11 +4017,11 @@ input:focus:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 
 /* Active Alpha Picker Button */
 .alphaPickerButton-selected {
-  color: var(--lime-500) !important;
+  color: var(--pink-500) !important;
 }
 
 .alphaPickerButton:hover {
-  color: var(--lime-500) !important;
+  color: var(--pink-500) !important;
 }
 
 /* Styling External Links as Tailwind Badges */
@@ -4041,17 +4041,17 @@ input:focus:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 }
 
 .itemExternalLinks .button-link:hover {
-  background-color: var(--lime-600) !important;
-  border-color: var(--lime-500) !important;
+  background-color: var(--pink-600) !important;
+  border-color: var(--pink-500) !important;
   color: white !important;
-  box-shadow: 0 0 10px var(--lime-500);
+  box-shadow: 0 0 10px var(--pink-500);
 }
 
 /* List Item Hover Tint */
 .listItem:hover,
 .listItem:focus-within {
-  background-color: oklch(64.8% 0.2 131.684 / 0.1) !important;
-  /* lime-600 with 0.1 alpha */
+  background-color: oklch(0.592 0.249 0.584 / 0.1) !important;
+  /* pink-600 with 0.1 alpha */
   transition: background-color 0.2s ease-in-out;
   border-radius: var(--smallRadius);
 }
@@ -4073,13 +4073,13 @@ input:focus:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 .nowPlayingInfoButtons .paper-icon-button-light:hover,
 .nowPlayingInfoButtons .paper-icon-button-light:active,
 .nowPlayingInfoButtons .paper-icon-button-light:focus {
-  color: var(--lime-500) !important;
-  background-color: oklch(64.8% 0.2 131.684 / 0.1) !important;
+  color: var(--pink-500) !important;
+  background-color: oklch(0.592 0.249 0.584 / 0.1) !important;
 }
 
 /* Ripple Effect Color Adaptation */
 .paper-icon-button-light .paper-ripple {
-  color: var(--lime-500) !important;
+  color: var(--pink-500) !important;
 }
 
 .checkboxContainer .emby-checkbox-label {
@@ -4095,18 +4095,18 @@ input:focus:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 /* Played Indicator Tint */
 .playedIndicator,
 .countIndicator {
-  background-color: var(--lime-600) !important;
+  background-color: var(--pink-600) !important;
   color: white !important;
-  box-shadow: 0 0 5px var(--lime-500);
+  box-shadow: 0 0 5px var(--pink-500);
 }
 
 /* Card Overlay Play/Resume Button Hover */
 .cardOverlayButton.cardOverlayFab-primary:hover,
 .cardOverlayButton[data-action="resume"]:hover,
 .cardOverlayButton[data-action="play"]:hover {
-  background-color: var(--lime-600) !important;
+  background-color: var(--pink-600) !important;
   color: white !important;
-  box-shadow: 0 0 10px var(--lime-500);
+  box-shadow: 0 0 10px var(--pink-500);
 }
 
 .cardOverlayButton.cardOverlayFab-primary:hover .material-icons,

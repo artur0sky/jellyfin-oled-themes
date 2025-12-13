@@ -34,18 +34,25 @@ Inspired by the beautiful work of [ElegantFin](https://github.com/lscambo13/Eleg
 
 Currently available themes. We plan to release a theme for **every** color in the Tailwind v4 palette.
 
-### 🟣 Violet Theme
+### 🔮 Violet Theme
 The flagship theme. Deep, elegant, and mysterious.
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/artur0sky/jellyfin-oled-themes@main/jellyfin-oled-themes-violet.css");
+@import url("https://cdn.jsdelivr.net/gh/artur0sky/jellyfin-oled-themes@main/themes/jellyfin-oled-themes-violet.css");
 ```
 
-### 🟢 Lime Theme
+### 🍋 Lime Theme
 Energetic, fresh, and high-contrast.
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/artur0sky/jellyfin-oled-themes@main/jellyfin-oled-themes-lime.css");
+@import url("https://cdn.jsdelivr.net/gh/artur0sky/jellyfin-oled-themes@main/themes/jellyfin-oled-themes-lime.css");
+```
+
+### 🧁 Pink Theme
+Playful, vibrant, and romantic.
+
+```css
+@import url("https://cdn.jsdelivr.net/gh/artur0sky/jellyfin-oled-themes@main/themes/jellyfin-oled-themes-pink.css");
 ```
 
 ## 🛠️ Installation
@@ -64,6 +71,7 @@ Energetic, fresh, and high-contrast.
 
 - [x] **Violet** Theme
 - [x] **Lime** Theme
+- [x] **Pink** Theme
 - [ ] **Sky** Theme
 - [ ] **Rose** Theme
 - [ ] **Amber** Theme
