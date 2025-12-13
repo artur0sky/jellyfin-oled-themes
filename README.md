@@ -57,6 +57,8 @@ Energetic, fresh, and high-contrast.
 5. Click **Save** and refresh your page.
 
 > **Note**: For the best experience, ensure you have enabled "Theme Song" and "Backdrops" in your user settings.
+>
+> **⚠️ Compatibility**: These themes are primarily designed and tested on the **Dark** schema. Usage with *Light*, *Apple*, *Blue*, *WMC*, or *Purple Haze* schemas is not guaranteed and may lead to visual issues.
 
 ## 🗺️ Roadmap
 
@@ -76,7 +78,7 @@ This project would not be possible without the inspiration from the Jellyfin com
 
 ## 👨‍💻 Author
 
-**Arturo Saenz**
+**Arturo Sáenz**
 
 - 🐙 **GitHub**: [@artur0sky](https://github.com/artur0sky)
 - 💼 **LinkedIn**: [artur0sky](https://www.linkedin.com/in/artur0sky/)
