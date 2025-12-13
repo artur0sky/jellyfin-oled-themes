@@ -17,11 +17,11 @@
   --pink-900: oklch(0.408 0.153 2.432);
   --pink-950: oklch(0.284 0.109 3.907);
   /* Tailwind Red Palette */
-  --red-500: #ef4444;
-  --red-600: #dc2626;
+  --red-500: oklch(63.7% 0.237 25.331);
+  --red-600: oklch(57.7% 0.245 27.325);
   /* Tailwind Sky Palette */
-  --sky-400: #38bdf8;
-  --sky-500: #0ea5e9;
+  --sky-400: oklch(74.6% 0.16 232.661);
+  --sky-500: oklch(68.5% 0.169 237.323);
   --darkerGradientPoint: #000000;
   --darkerGradientPointAlpha: rgba(0, 0, 0, .85);
   --lighterGradientPoint: #000000;
@@ -4065,7 +4065,7 @@ input:focus:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 .listItem:has(.currentMediaSource),
 .listItem:has(.playingIndicator),
 .listItem:has(.itemProgressBar) {
-  background-color: oklch(64.8% 0.2 131.684 / 0.2) !important;
+  background-color: oklch(0.592 0.249 0.584 / 0.2) !important;
   border-radius: var(--smallRadius);
 }
 
