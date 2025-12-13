@@ -34,6 +34,8 @@ Inspired by the beautiful work of [ElegantFin](https://github.com/lscambo13/Eleg
 
 Currently available themes. We plan to release a theme for **every** color in the Tailwind v4 palette.
 
+> **Note**: All themes will have their respective `.min.css` version.
+
 ### 🔮 Violet Theme
 The flagship theme. Deep, elegant, and mysterious.
 
