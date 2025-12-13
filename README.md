@@ -4,7 +4,7 @@
 
   <img src="https://img.shields.io/badge/Jellyfin-10.9+-00A4DC?style=for-the-badge&logo=jellyfin&logoColor=white" alt="Jellyfin Version" />
   <img src="https://img.shields.io/badge/OLED-Optimized-000000?style=for-the-badge&logo=apple&logoColor=white" alt="OLED Optimized" />
-  <img src="https://img.shields.io/badge/Style-Modern-8b5cf6?style=for-the-badge" alt="Style Modern" />
+  <img src="https://img.shields.io/badge/release-v1.0.0-8b5cf6?style=for-the-badge" alt="Version 1.0.0" />
 
 </div>
 
@@ -29,12 +29,13 @@ Inspired by the beautiful work of [ElegantFin](https://github.com/lscambo13/Eleg
 - **🔤 Modern Typography**: Integrated **[Rubik](https://fonts.google.com/specimen/Rubik)** font for a clean, geometric, and legible interface.
 - **🟢 Material Icons**: Replaces standard icons with **Material Symbols Rounded** for a polished, consistent look.
 - **📱 Mobile First**: deeply optimized for touch devices and smaller screens without compromising the desktop experience.
+- **⚡ Performance**: All themes are available in minified versions for faster loading.
 
 ## 🎨 Available Themes
 
-Currently available themes. We plan to release a theme for **every** color in the Tailwind v4 palette.
+We are proud to present our first three themes in the collection. We plan to release a theme for **every** color in the Tailwind v4 palette.
 
-> **Note**: All themes will have their respective `.min.css` version.
+> **Note**: For a minified version (recommended for production), append `.min.css` to the filename in the URL (e.g., `.../jellyfin-oled-themes-violet.min.css`).
 
 ### 🔮 Violet Theme
 The flagship theme. Deep, elegant, and mysterious.
