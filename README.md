@@ -44,6 +44,16 @@ The flagship theme. Deep, elegant, and mysterious.
 ### 🍋 Lime Theme
 Energetic, fresh, and high-contrast.
 
+<details>
+  <summary><b>📸 Screenshots</b></summary>
+  <br>
+  <img src="preview/lime/jellyfin-oled-themes-lime-home.jpg" alt="Lime Theme Home" width="100%" />
+  <br /><br />
+  <img src="preview/lime/jellyfin-oled-themes-lime-movie-details.jpg" alt="Lime Theme Details" width="100%" />
+  <br /><br />
+  <img src="preview/lime/jellyfin-oled-themes-lime-songs-playing.jpg" alt="Lime Theme Music" width="100%" />
+</details>
+
 ```css
 @import url("https://cdn.jsdelivr.net/gh/artur0sky/jellyfin-oled-themes@main/themes/jellyfin-oled-themes-lime.css");
 ```
