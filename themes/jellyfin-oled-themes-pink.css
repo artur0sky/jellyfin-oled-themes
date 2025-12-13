@@ -74,10 +74,10 @@
   --sidePadding: 3.3%;
   --itemColumnGap: 1em;
   --minEpisodeCardWidth: 26em;
-  --blurSmallest: blur(2px);
-  --blurDefault: blur(5px);
-  --blurLarge: blur(10px);
-  --blurLargest: blur(20px);
+  --blurSmallest: blur(0.125rem);
+  --blurDefault: blur(0.3125rem);
+  --blurLarge: blur(0.625rem);
+  --blurLargest: blur(1.25rem);
   --shadow: .1em .1em .15em hsla(0, 0%, 0%, .3);
   --headerBlurLayerVisibility: "";
   --headerBackground: var(--headerColorGradient);
@@ -118,7 +118,7 @@ body {
 .layout-mobile {
   --itemColumnGap: 0;
   --headerColorGradient: var(--headerColorGradientAlt);
-  --blurLargest: blur(12px);
+  --blurLargest: blur(0.75rem);
   --headerBlurMask: linear-gradient(180deg, white 60%, 90%, transparent)
 }
 
@@ -346,7 +346,7 @@ body {
 /* Card Glow Effect */
 .card-hoverable:hover .cardScalable,
 .card-hoverable:focus-within .cardScalable {
-  box-shadow: 0 0 20px 2px oklch(0.656 0.241 354.308 / 0.5) !important;
+  box-shadow: 0 0 1.25em 0.125em oklch(0.656 0.241 354.308 / 0.5) !important;
   /* pink-500 glow */
   transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
   border-radius: var(--smallRadius);
@@ -423,7 +423,7 @@ body {
   background-color: transparent !important;
   color: white;
   border: none;
-  text-shadow: 1px 1px .1em black;
+  text-shadow: 0.06em 0.06em .1em black;
   color: white
 }
 
@@ -1600,7 +1600,7 @@ progress+span {
 
 .mdl-slider::-webkit-slider-thumb {
   background: var(--osdSeekBarThumbColor);
-  width: 4px !important;
+  width: 0.25em !important;
   height: .4em !important;
   border-radius: 0
 }
@@ -1633,8 +1633,8 @@ progress+span {
 }
 
 .sliderMarker {
-  height: 4px;
-  border-radius: 2px
+  height: 0.25em;
+  border-radius: 0.125em
 }
 
 .iconOsdProgressInner {
@@ -1708,7 +1708,7 @@ progress+span {
 
 .itemExternalLinks {
   color: var(--textColor);
-  padding: 4px 8px 4px 8px !important;
+  padding: 0.25em 0.5em 0.25em 0.5em !important;
 }
 
 .itemExternalLinks.focuscontainer-x {
@@ -1952,7 +1952,7 @@ progress+span {
 
 .emby-checkbox:checked+span+.checkboxOutline {
   border-radius: var(--smallerRadius) !important;
-  box-shadow: inset 0 7em 10em 20px rgba(0, 0, 0, .8);
+  box-shadow: inset 0 7em 10em 1.25em rgba(0, 0, 0, .8);
   background: transparent;
   border-color: white;
   border-style: solid;
@@ -2461,7 +2461,7 @@ div[data-role="controlgroup"] a.ui-btn-active {
 }
 
 .actionsheetDivider {
-  height: 2px;
+  height: 0.125em;
   background: rgb(255, 255, 255, .05)
 }
 
@@ -3205,7 +3205,7 @@ fieldset {
 table:not(.MuiTable-root.MuiTable-stickyHeader) {
   border-color: var(--borderColor) !important;
   border-radius: var(--smallRadius);
-  border-spacing: 1px;
+  border-spacing: 0.06em;
   border: var(--defaultBorder);
   background: var(--tableBodyColor);
   border-collapse: separate;
@@ -3511,7 +3511,7 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense>div:first-child {
   position: absolute;
   inset: 0;
   /* Darken and Blur the underlying cover art */
-  backdrop-filter: blur(5px) brightness(0.5);
+  backdrop-filter: blur(0.3125rem) brightness(0.5);
   background-color: rgba(0, 0, 0, 0.1);
 
   /* Sharp 5-bar lime SVG on top */
@@ -3550,8 +3550,8 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense>div:first-child {
 
 .MuiTabs-flexContainer>.MuiButtonBase-root {
   border-radius: var(--largeRadius);
-  min-height: 40px;
-  min-width: 72px
+  min-height: 2.5em;
+  min-width: 4.5em
 }
 
 .MuiTabs-flexContainer>.MuiButtonBase-root.Mui-selected {
@@ -3622,7 +3622,7 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense>div:first-child {
 
 .skinHeader-withBackground.semiTransparent .headerButton,
 .skinHeader.headroom:not(.osdHeader, .noHomeButtonHeader):has(.pageTitle:empty) .headerButton {
-  text-shadow: 1px 1px 0 #00000080
+  text-shadow: 0.06em 0.06em 0 #00000080
 }
 
 .headerTop {
@@ -3891,7 +3891,7 @@ input:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 .emby-input,
 .emby-textarea,
 .emby-select {
-  border: 1px solid var(--borderColor) !important;
+  border: 0.0625rem solid var(--borderColor) !important;
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
@@ -3947,7 +3947,7 @@ input:focus:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 .emby-textarea:focus,
 .emby-select:focus {
   border-color: var(--pink-500) !important;
-  box-shadow: 0 0 0 1px var(--pink-500) !important;
+  box-shadow: 0 0 0 0.0625rem var(--pink-500) !important;
   outline: none !important;
 }
 
@@ -3983,7 +3983,7 @@ input:focus:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 .btnResume:active,
 .button-submit:active {
   background-color: var(--pink-500) !important;
-  box-shadow: 0 0 15px var(--pink-500) !important;
+  box-shadow: 0 0 0.9375rem var(--pink-500) !important;
   color: white !important;
   /* Force white text/icon */
 }
