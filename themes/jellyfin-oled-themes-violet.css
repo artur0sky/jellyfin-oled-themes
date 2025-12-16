@@ -3862,6 +3862,16 @@ ul.MuiList-root.MuiMenu-list.MuiList-dense>div:first-child {
   background: var(--violet-500) !important;
 }
 
+.mdl-slider::-moz-range-progress {
+  background-color: var(--violet-500) !important;
+  height: 100%;
+  border-radius: var(--largeRadius);
+}
+
+.mdl-slider::-ms-fill-lower {
+  background-color: var(--violet-500) !important;
+}
+
 /* Remove purple borders from sliders if any */
 .mdl-slider-background-lower,
 .mdl-slider-background-upper,
