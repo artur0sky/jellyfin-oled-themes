@@ -4114,3 +4114,17 @@ input:focus:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
 .cardOverlayButton[data-action="play"]:hover .material-icons {
   color: white !important;
 }
+
+/* Quality and Language Overlay - Hide by default, show on hover */
+.quality-overlay-container,
+.language-overlay-container {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.card:hover .quality-overlay-container,
+.card:hover .language-overlay-container,
+.card:focus-within .quality-overlay-container,
+.card:focus-within .language-overlay-container {
+  opacity: 1;
+}
